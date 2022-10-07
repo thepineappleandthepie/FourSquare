@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FourSquare</string>
+
+    <string name="hometitle">FourSquare</string>
+    <string name="rulebutton">Rules</string>
+    <string name="playbutton">Play</string>
+</resources>
