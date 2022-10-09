@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="295dp"
         android:layout_height="103dp"
-        android:text="GAME OVER!"
+        android:text="@string/gameOver"
         android:textColor="#13C0D6"
         android:textSize="48sp"
         android:textStyle="bold"
@@ -21,39 +21,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.25" />
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="356dp"
-        android:text="PlayerX Won!"
+        android:layout_width="264dp"
+        android:layout_height="153dp"
+        android:text="@string/results"
+        android:textAlignment="center"
         android:textColor="#4DCC52"
         android:textColorLink="#52EC59"
         android:textSize="48sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
         android:layout_marginBottom="64dp"
-        android:background="#BD0808"
-        android:text="Home"
-        app:layout_constraintBottom_toBottomOf="parent"
 
+        android:background="@drawable/redbutton"
+        android:text="@string/homebutton"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="64dp"
-        android:text="Play Again"
+        android:background="@drawable/redbutton"
+        android:text="@string/playAgain"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>Layout>
